@@ -1,1 +1,1 @@
-# Front-End-studies
+This repository only contains study content
