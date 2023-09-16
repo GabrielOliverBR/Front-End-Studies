@@ -1,0 +1,38 @@
+body {
+background: blue;
+font: normal 15pt arial;
+}
+
+header {
+color: white;
+text-align: center;
+}
+
+
+section {
+background: white;
+border-radius: 15px;
+padding: 15px;
+width: 500px;
+margin: auto;
+box-shadow: 5px 5px 10px black;
+}
+
+div {
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10%;
+    width: 250px;
+    height: 250px;
+  }
+
+footer {
+color: white;
+text-align: center;
+font-style: italic;
+
+}
