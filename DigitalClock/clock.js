@@ -1,4 +1,5 @@
-const SEMANA = ["DOMINGO", "SEGUNDA-FEIRA", "TERÇA-FEIRA", 
+/*PT-BR-FORMAT*/
+const WEEK = ["DOMINGO", "SEGUNDA-FEIRA", "TERÇA-FEIRA",   /* DAYS WEEK */
 "QUARTA-FEIRA", "QUINTA-FEIRA", "SEXTA-FEIRA", "SÁBADO"];
 
 function updateTime() {
@@ -13,7 +14,7 @@ function updateTime() {
             zeroPadding(now.getDate(), 2) + "-" +
             zeroPadding(now.getMonth() + 1, 2) + "-" +
             now.getFullYear() + " " +
-            SEMANA[now.getDay()];
+            WEEK[now.getDay()];
 }
 
         updateTime();
